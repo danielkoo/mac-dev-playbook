@@ -54,7 +54,6 @@ You can override any of the defaults configured in `default.config.yml` by creat
 
 ```yaml
 homebrew_installed_packages:
-  - cowsay
   - git
   - go
 
@@ -124,13 +123,11 @@ Packages (installed with Homebrew):
   - iperf
   - libevent
   - sqlite
-  - mcrypt
   - nmap
   - node
   - nvm
   - php
   - ssh-copy-id
-  - cowsay
   - readline
   - openssl
   - pv

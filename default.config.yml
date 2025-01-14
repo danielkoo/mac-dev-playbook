@@ -1,6 +1,4 @@
 ---
-downloads: ~/.ansible-downloads/
-
 configure_dotfiles: true
 configure_terminal: true
 configure_osx: true
@@ -49,13 +47,12 @@ homebrew_installed_packages:
   - iperf
   - libevent
   - sqlite
-  - mcrypt
   - nmap
   - node
   - nvm
   - php
+  - pngpaste
   - ssh-copy-id
-  - cowsay
   - readline
   - openssl
   - pv
@@ -63,9 +60,7 @@ homebrew_installed_packages:
   - wrk
   - zsh-history-substring-search
 
-homebrew_taps:
-  - homebrew/core
-  - homebrew/cask
+homebrew_taps: []
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
